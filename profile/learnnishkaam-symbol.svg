@@ -1,0 +1,53 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 256 256" width="256" height="256" role="img" aria-labelledby="t">
+  <title id="t">learnnishkaam - The Water Lotus Master Symbol</title>
+  <defs>
+    <!-- Central Flame -->
+    <linearGradient id="flame" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFD166"/>
+      <stop offset="50%" stop-color="#FF6B35"/>
+      <stop offset="100%" stop-color="#D90368"/>
+    </linearGradient>
+
+    <!-- Flanking Petals (Inward directional light) -->
+    <linearGradient id="flankL" x1="0.2" y1="0" x2="0.9" y2="1">
+      <stop offset="0%" stop-color="#FF9E80"/>
+      <stop offset="100%" stop-color="#C2185B"/>
+    </linearGradient>
+    <linearGradient id="flankR" x1="0.8" y1="0" x2="0.1" y2="1">
+      <stop offset="0%" stop-color="#FF9E80"/>
+      <stop offset="100%" stop-color="#C2185B"/>
+    </linearGradient>
+
+    <!-- Outer Wings (Warm foundation depth) -->
+    <linearGradient id="wingL" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0%" stop-color="#FFB74D"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </linearGradient>
+    <linearGradient id="wingR" x1="1" y1="0" x2="0" y2="1">
+      <stop offset="0%" stop-color="#FFB74D"/>
+      <stop offset="100%" stop-color="#E65100"/>
+    </linearGradient>
+
+    <!-- Reflective Horizontal Water -->
+    <linearGradient id="water" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0%" stop-color="#00838F"/>
+      <stop offset="50%" stop-color="#26C6DA"/>
+      <stop offset="100%" stop-color="#00838F"/>
+    </linearGradient>
+  </defs>
+
+  <!-- Layer 1: Outer Wings -->
+  <path fill="url(#wingL)" d="M 36 100 C 48 92 68 102 82 122 C 86 128 88 138 88 148 C 88 162 98 172 104 176 C 88 170 60 158 48 140 C 36 126 32 112 36 100 Z"/>
+  <path fill="url(#wingR)" d="M 220 100 C 208 92 188 102 174 122 C 170 128 168 138 168 148 C 168 162 158 172 152 176 C 168 170 196 158 208 140 C 220 126 224 112 220 100 Z"/>
+
+  <!-- Layer 2: Flanking Petals -->
+  <path fill="url(#flankL)" d="M 76 58 C 86 90 94 122 94 146 C 94 160 102 172 114 176 C 98 170 72 148 66 120 C 60 94 70 70 76 58 Z"/>
+  <path fill="url(#flankR)" d="M 180 58 C 170 90 162 122 162 146 C 162 160 154 172 142 176 C 158 170 184 148 190 120 C 196 94 186 70 180 58 Z"/>
+
+  <!-- Layer 3: Central Flame -->
+  <path fill="url(#flame)" d="M 128 24 C 120 56 106 94 106 126 C 106 150 116 168 128 176 C 140 168 150 150 150 126 C 150 94 136 56 128 24 Z"/>
+
+  <!-- Foundation: Dual Water Ripples -->
+  <path fill="url(#water)" d="M 54 192 C 86 214 170 214 202 192 C 176 206 146 210 128 210 C 110 210 80 206 54 192 Z"/>
+  <path fill="url(#water)" opacity="0.85" d="M 76 220 C 100 234 156 234 180 220 C 162 228 142 230 128 230 C 114 230 94 228 76 220 Z"/>
+</svg>
