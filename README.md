@@ -3,10 +3,11 @@
 </p>
 
 <h1 align="center">learnnishkaam</h1>
+<p align="center">ਨਿਸ਼ਕਾਮ &nbsp;·&nbsp; نِشکام</p>
 
 <p align="center">
   Local-first interactive learning in your browser.<br>
-  Named after <em>nishkaam karma</em>: dedicated to the craft of learning without commercial distraction.
+  Dedicated to the craft of learning without commercial distraction.
 </p>
 
 ---
