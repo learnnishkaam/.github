@@ -2,7 +2,7 @@
   <img src="./learnnishkaam-symbol.svg" alt="learnnishkaam logo" width="110" height="110">
 </p>
 
-<h1 align="center">learnnishkaam</h1>
+<h3 align="center">learnnishkaam</h3>
 <p align="center">ਨਿਸ਼ਕਾਮ &nbsp;·&nbsp; نِشکام</p>
 
 <p align="center">
